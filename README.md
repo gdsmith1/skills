@@ -4,10 +4,29 @@ Custom Claude Code skills that aren't specific to any project. Each top-level fo
 
 ## Install
 
+Add the marketplace once, then install each plugin you want. Run these in a Claude Code session:
+
 ```
 /plugin marketplace add gdsmith1/skills
 /plugin install pptx-to-html@gdsmith1
 ```
+
+To confirm it worked:
+
+- `/plugin marketplace list` shows `gdsmith1`.
+- `/plugin` shows `pptx-to-html` as installed and enabled.
+- From a shell, `claude plugin list` shows `pptx-to-html@gdsmith1` with status enabled.
+
+Start a new session after installing so the skill loads.
+
+## Updates
+
+Updates aren't automatic by default. To get the latest:
+
+- In a session, run `/plugin marketplace update gdsmith1`. From a shell, run `claude plugin update pptx-to-html@gdsmith1`.
+- To have updates install in the background, run `/plugin`, open the **Marketplaces** tab, select `gdsmith1`, and choose **Enable auto-update**.
+
+A plugin only updates when its `version` in `plugin.json` changes.
 
 ## Where to look
 

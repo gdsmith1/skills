@@ -1,0 +1,6 @@
+{
+  "name": "pptx-to-html",
+  "version": "0.1.0",
+  "description": "Convert a .pptx deck into a single self-contained HTML file with a built-in viewer and speaker view.",
+  "author": { "name": "Gibson Smith", "email": "gibson.smith@liatrio.com" }
+}

@@ -3,6 +3,7 @@
   "owner": { "name": "Gibson Smith" },
   "description": "Custom Claude Code plugins that aren't specific to any project.",
   "plugins": [
+    { "name": "freeze", "source": "./freeze" },
     { "name": "pptx-to-html", "source": "./pptx-to-html" }
   ]
 }

@@ -1,0 +1,6 @@
+{
+  "name": "freeze",
+  "version": "0.2.0",
+  "description": "Pause every running subagent under an orchestrator into a structured report, then resume them from fresh subagents after /clear.",
+  "author": { "name": "Gibson Smith", "email": "gibson.smith@liatrio.com" }
+}

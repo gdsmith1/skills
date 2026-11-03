@@ -1,0 +1,8 @@
+{
+  "name": "gdsmith1",
+  "owner": { "name": "Gibson Smith" },
+  "description": "Custom Claude Code plugins that aren't specific to any project.",
+  "plugins": [
+    { "name": "pptx-to-html", "source": "./pptx-to-html" }
+  ]
+}

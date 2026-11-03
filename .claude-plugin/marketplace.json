@@ -4,6 +4,7 @@
   "description": "Custom Claude Code plugins that aren't specific to any project.",
   "plugins": [
     { "name": "freeze", "source": "./freeze" },
+    { "name": "last-pass", "source": "./last-pass" },
     { "name": "pptx-to-html", "source": "./pptx-to-html" }
   ]
 }

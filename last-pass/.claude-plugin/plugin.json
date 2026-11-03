@@ -1,0 +1,6 @@
+{
+  "name": "last-pass",
+  "version": "0.1.0",
+  "description": "Final review pass before committing or merging: change table, duplication check, comment cleanup, and verification.",
+  "author": { "name": "Gibson Smith", "email": "gibson.smith@liatrio.com" }
+}

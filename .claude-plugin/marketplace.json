@@ -1,10 +1,25 @@
 {
   "name": "gdsmith1",
-  "owner": { "name": "Gibson Smith" },
+  "owner": {
+    "name": "Gibson Smith"
+  },
   "description": "Custom Claude Code plugins that aren't specific to any project.",
   "plugins": [
-    { "name": "freeze", "source": "./freeze" },
-    { "name": "last-pass", "source": "./last-pass" },
-    { "name": "pptx-to-html", "source": "./pptx-to-html" }
+    {
+      "name": "freeze",
+      "source": "./freeze"
+    },
+    {
+      "name": "frutiger-aero",
+      "source": "./frutiger-aero"
+    },
+    {
+      "name": "last-pass",
+      "source": "./last-pass"
+    },
+    {
+      "name": "pptx-to-html",
+      "source": "./pptx-to-html"
+    }
   ]
 }
